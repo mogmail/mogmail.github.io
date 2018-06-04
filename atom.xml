@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-04T06:14:47.675Z</updated>
+  <updated>2018-06-04T06:15:27.226Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="http://yoursite.com/2018/06/04/git%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2018/06/04/git一些问题/</id>
     <published>2018-06-04T06:11:08.000Z</published>
-    <updated>2018-06-04T06:14:47.675Z</updated>
+    <updated>2018-06-04T06:15:27.226Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h2><p>1.文件夹.git里面的config文件修改内容</p><p><img src="/2018/06/04/git一些问题/20180521110229990.jpg" alt="描述"><br>这里截图有些小错误：remote oigin 应该是 remote origin，下面也是把 oigin 改为 origin </p><p>2.这里原来是缺少了一个remotes的文件夹<br><img src="/2018/06/04/git一些问题/20180521104645885.jpg" alt="描述"></p><p>结果导致错误:<br><img src="/2018/06/04/git一些问题/20180521104829236.jpg" alt="描述"></p><p>就算是复制黏贴也是错误的，会有下面的错误：<br><img src="/2018/06/04/git一些问题/20180521110940702.jpg" alt="描述"></p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>（来自某网友的回答）如果手动创建git repo的话，默认是没有remote的，需要手动添加。git remote add origin . “origin”可以换成其它名字，url是远程仓库的地址（可以是本地硬盘上的某个git repo）。如果用git clone的话，会自动创建一个remote origin<br>解决方法：git remote add origin （远程仓库地址）<br>这条命令会在最上面那个文件夹里添加remotes这个文件，这样就可以git pull</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h2><p>1.文件夹.git里面的config文件修改内容</p><p><img src="/2018/06/04/git一些问题/20180521110229990.jpg" alt="描述"><br>这里截图有些小错误：remote oigin 应该是 remote origin，下面也是把 oigin 改为 origin<br><a id="more"></a><br>2.这里原来是缺少了一个remotes的文件夹<br><img src="/2018/06/04/git一些问题/20180521104645885.jpg" alt="描述"></p><p>结果导致错误:<br><img src="/2018/06/04/git一些问题/20180521104829236.jpg" alt="描述"></p><p>就算是复制黏贴也是错误的，会有下面的错误：<br><img src="/2018/06/04/git一些问题/20180521110940702.jpg" alt="描述"></p><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>（来自某网友的回答）如果手动创建git repo的话，默认是没有remote的，需要手动添加。git remote add origin . “origin”可以换成其它名字，url是远程仓库的地址（可以是本地硬盘上的某个git repo）。如果用git clone的话，会自动创建一个remote origin<br>解决方法：git remote add origin （远程仓库地址）<br>这条命令会在最上面那个文件夹里添加remotes这个文件，这样就可以git pull</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;报错&quot;&gt;&lt;a href=&quot;#报错&quot; class=&quot;headerlink&quot; title=&quot;报错&quot;&gt;&lt;/a&gt;报错&lt;/h2&gt;&lt;p&gt;1.文件夹.git里面的config文件修改内容&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2018/06/04/git一些问题/20180521
-      
+      &lt;h2 id=&quot;报错&quot;&gt;&lt;a href=&quot;#报错&quot; class=&quot;headerlink&quot; title=&quot;报错&quot;&gt;&lt;/a&gt;报错&lt;/h2&gt;&lt;p&gt;1.文件夹.git里面的config文件修改内容&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/06/04/git一些问题/20180521110229990.jpg&quot; alt=&quot;描述&quot;&gt;&lt;br&gt;这里截图有些小错误：remote oigin 应该是 remote origin，下面也是把 oigin 改为 origin&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
