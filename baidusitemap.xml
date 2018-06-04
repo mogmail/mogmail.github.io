@@ -4,6 +4,221 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/06/04/git%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-06-04T06:14:47.675Z</lastmod>
+    <data>
+        <display>
+        <title>git一些问题</title>
+        <pubTime>2018-06-04T06:11:08.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://yoursite.com/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/06/04/element-ui-%E4%B8%BB%E9%A2%98%E6%8D%A2%E8%89%B2/</loc>
+    <lastmod>2018-06-04T06:09:38.495Z</lastmod>
+    <data>
+        <display>
+        <title>element-ui 主题换色</title>
+        <pubTime>2018-06-04T05:58:07.000Z</pubTime>
+        
+        <tag>element</tag>
+         
+         
+           
+             
+              <breadCrumb title="element" url="http://yoursite.com/categories/element/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/17/%E7%BA%A2%E8%89%B2%E6%B3%A2%E6%B5%AA%E7%BA%BF%E6%8A%A5%E9%94%99/</loc>
+    <lastmod>2018-06-04T05:55:40.849Z</lastmod>
+    <data>
+        <display>
+        <title>vue 红色波浪线报错</title>
+        <pubTime>2018-05-17T06:19:39.000Z</pubTime>
+        
+        <tag>vue</tag>
+         
+         
+           
+             
+              <breadCrumb title="vue" url="http://yoursite.com/categories/vue/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/16/upload%E4%B8%8A%E4%BC%A0%E5%8D%95%E5%BC%A0%E5%9B%BE%E7%89%87%EF%BC%8C%E6%95%88%E6%9E%9C%E5%90%8C%E5%A4%9A%E5%9B%BE/</loc>
+    <lastmod>2018-06-04T05:48:18.114Z</lastmod>
+    <data>
+        <display>
+        <title>upload上传单张图片，效果同多图</title>
+        <pubTime>2018-05-16T01:18:30.000Z</pubTime>
+        
+        <tag>element</tag>
+         
+         
+           
+             
+              <breadCrumb title="element" url="http://yoursite.com/categories/element/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/16/element-upload%E4%B8%8A%E4%BC%A0%E5%8D%95%E5%BC%A0%E5%9B%BE%E7%89%87%EF%BC%8C%E6%95%88%E6%9E%9C%E5%90%8C%E5%A4%9A%E5%9B%BE/</loc>
+    <lastmod>2018-06-04T05:43:31.035Z</lastmod>
+    <data>
+        <display>
+        <title>element upload上传单张图片，效果同多图</title>
+        <pubTime>2018-05-16T01:18:30.000Z</pubTime>
+        
+        <tag>element</tag>
+         
+         
+           
+             
+              <breadCrumb title="element" url="http://yoursite.com/categories/element/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/15/%E5%B0%8F%E7%A8%8B%E5%BA%8Ficonfont/</loc>
+    <lastmod>2018-06-04T05:42:09.183Z</lastmod>
+    <data>
+        <display>
+        <title>小程序iconfont</title>
+        <pubTime>2018-05-15T08:45:06.000Z</pubTime>
+        
+        <tag>小程序</tag>
+         
+         
+           
+             
+              <breadCrumb title="小程序" url="http://yoursite.com/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/11/element-ui-%E6%97%A5%E6%9C%9F%E9%80%89%E6%8B%A9%E5%99%A8%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-06-04T05:12:59.985Z</lastmod>
+    <data>
+        <display>
+        <title>element-ui 日期选择器数据问题</title>
+        <pubTime>2018-05-11T03:33:44.000Z</pubTime>
+        
+        <tag>element</tag>
+         
+         
+           
+             
+              <breadCrumb title="element" url="http://yoursite.com/categories/element/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/04/24/upload-%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87/</loc>
+    <lastmod>2018-06-04T05:07:47.823Z</lastmod>
+    <data>
+        <display>
+        <title>upload 上传图片</title>
+        <pubTime>2018-04-24T09:08:07.000Z</pubTime>
+        
+        <tag>element</tag>
+         
+         
+           
+             
+              <breadCrumb title="element" url="http://yoursite.com/categories/element/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/04/19/Mac-%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%9A%84%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2018-06-04T03:36:39.322Z</lastmod>
+    <data>
+        <display>
+        <title>Mac 重装系统后的安装</title>
+        <pubTime>2018-04-19T07:39:15.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://yoursite.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/06/04/overflow-%E5%9B%BA%E5%AE%9A%E5%A4%B4%E9%83%A8%EF%BC%8C%E5%86%85%E5%AE%B9%E6%BB%9A%E5%8A%A8/</loc>
+    <lastmod>2018-06-04T03:26:36.312Z</lastmod>
+    <data>
+        <display>
+        <title>overflow 固定头部，内容滚动</title>
+        <pubTime>2018-06-04T03:00:20.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/03/22/laravel-valet-%E6%8A%A5%E9%94%99-1/</loc>
+    <lastmod>2018-06-04T02:48:11.627Z</lastmod>
+    <data>
+        <display>
+        <title>laravel valet 报错</title>
+        <pubTime>2018-03-22T02:27:06.000Z</pubTime>
+        
+        <tag>laravel</tag>
+         
+         
+           
+             
+              <breadCrumb title="laravel" url="http://yoursite.com/categories/laravel/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/05/29/hello-world/</loc>
     <lastmod>2018-05-29T08:48:31.865Z</lastmod>
     <data>

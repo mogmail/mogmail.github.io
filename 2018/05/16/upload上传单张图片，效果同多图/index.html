@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+
+  <meta name="description" content="upload上传单张图片，效果同多图"/>
+
+
+
+
+  <meta name="keywords" content="element, MoMo" />
+
+
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="MoMo">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.8.0" />
+
+
+
+<link rel="canonical" href="http://yoursite.com/2018/05/16/upload上传单张图片，效果同多图/"/>
+
+
+
+  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/lib/nprogress/nprogress.min.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.8.0" />
+
+
+
+  
+
+
+
+  <script id="baidu_push">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
+
+
+
+
+<script>
+  window.config = {"title":"MoMo","subtitle":null,"description":null,"author":"MoMo","language":"zh-CN","timezone":null,"url":"http://yoursite.com","root":"/","permalink":":year/:month/:day/:title/","permalink_defaults":null,"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":null,"new_post_name":":title.md","default_layout":"post","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":true,"relative_link":false,"future":true,"highlight":{"enable":true,"auto_detect":false,"line_number":true,"tab_replace":null,"first_line_number":"always1"},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":10,"pagination_dir":"page","theme":{"color":"Default","toc":true,"fancybox":true,"pjax":true},"deploy":{"type":"git","repo":"https://github.com/mogmail/mogmail.github.io.git"},"ignore":[],"keywords":null,"index_generator":{"per_page":10,"order_by":"-date","path":""},"admin":{"name":"hexo","password":"hey","secret":"hey hexo","expire":"60*1"},"archive_generator":{"per_page":10,"yearly":true,"monthly":true,"daily":false},"baidusitemap":{"path":"baidusitemap.xml"},"category_generator":{"per_page":10},"feed":{"type":"atom","limit":20,"hub":"","content":true,"content_limit":140,"content_limit_delim":"","path":"atom.xml"},"tag_generator":{"per_page":10},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true,"modifyAnchors":"","autolink":true},"server":{"port":4000,"log":false,"ip":"0.0.0.0","compress":false,"header":true},"since":2018,"favicon":"/favicon.ico","rss":"default","menu":{"Home":"/","Archives":"/archives/","Tags":"/tags/hexo","About":"/about"},"copyright":{"enable":true,"license":"<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">知识共享署名-非商业性使用 4.0 国际许可协议</a>"},"reward":{"enable":true,"qrCode":{"wechat":"/images/wechat.png","alipay":null}},"social":{"email":"1187851948@qq.com","stack-overflow":null,"twitter":null,"facebook":null,"linkedin":null,"google":null,"github":"https://github.com/mogmail","weibo":null,"zhihu":null,"douban":null,"pocket":null,"tumblr":null,"instagram":null},"leancloud":{"app_id":null,"app_key":null},"baidu_analytics":null,"baidu_verification":null,"google_analytics":null,"google_verification":null,"disqus_shortname":null,"changyan":{"appid":"cytDxeyn8","appkey":"86d4dc1ce1f5718560f64cbdb7dacd65"},"livere_datauid":null,"version":"2.8.0"};
+</script>
+
+    <title> upload上传单张图片，效果同多图 - MoMo </title>
+  </head>
+
+  <body><div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/." class="logo">MoMo</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    
+      <a href="/">
+        <li class="mobile-menu-item">
+          
+          
+            首页
+          
+        </li>
+      </a>
+    
+      <a href="/archives/">
+        <li class="mobile-menu-item">
+          
+          
+            归档
+          
+        </li>
+      </a>
+    
+      <a href="/tags/hexo">
+        <li class="mobile-menu-item">
+          
+          
+            标签
+          
+        </li>
+      </a>
+    
+      <a href="/about">
+        <li class="mobile-menu-item">
+          
+          
+            关于
+          
+        </li>
+      </a>
+    
+  </ul>
+</nav>
+
+    <div class="container" id="mobile-panel">
+      <header id="header" class="header"><div class="logo-wrapper">
+  <a href="/." class="logo">MoMo</a>
+</div>
+
+<nav class="site-navbar">
+  
+    <ul id="menu" class="menu">
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/">
+            
+            
+              首页
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/archives/">
+            
+            
+              归档
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/tags/hexo">
+            
+            
+              标签
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/about">
+            
+            
+              关于
+            
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+
+      </header>
+
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content">
+            
+  
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          upload上传单张图片，效果同多图
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          2018-05-16
+        </span>
+        
+          <div class="post-category">
+            
+              <a href="/categories/element/">element</a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+  <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#效果图"><span class="toc-text">效果图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实现"><span class="toc-text">实现</span></a></li></ol>
+    </div>
+  </div>
+
+
+    <div class="post-content">
+      
+        <h2 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h2><p><img src="/2018/05/16/upload上传单张图片，效果同多图/201805160910368.jpg" alt="描述"><br><a id="more"></a><br><img src="/2018/05/16/upload上传单张图片，效果同多图/20180516091022534.jpg" alt="描述"></p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">    &lt;div class=&quot;flex-img&quot;&gt;</span><br><span class="line">        &lt;div class=&quot;el-upload-list el-upload-list--picture-card&quot; v-show=&quot;hideShow&quot;&gt;</span><br><span class="line">            &lt;div class=&quot;el-upload-list__item is-success&quot;&gt;</span><br><span class="line">                &lt;img class=&quot;flex-img__image&quot; :src=&quot;image&quot;&gt;</span><br><span class="line">                &lt;label class=&quot;el-upload-list__item-status-label&quot;&gt;</span><br><span class="line">                    &lt;i class=&quot;el-icon-upload-success el-icon-check&quot;&gt;&lt;/i&gt;</span><br><span class="line">                &lt;/label&gt;</span><br><span class="line">                &lt;span class=&quot;el-upload-list__item-actions&quot;&gt;</span><br><span class="line">                    &lt;span class=&quot;el-upload-list__item-delete&quot;&gt;</span><br><span class="line">                        &lt;i class=&quot;el-icon-delete&quot; @click.stop=&quot;handleRemove()&quot;&gt;&lt;/i&gt;</span><br><span class="line">                    &lt;/span&gt;</span><br><span class="line">                &lt;/span&gt;</span><br><span class="line">            &lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;el-upload</span><br><span class="line">                class=&quot;image-uploader&quot;</span><br><span class="line">                :action=&quot;uploadUrl&quot;</span><br><span class="line">                :show-file-list=&quot;false&quot;</span><br><span class="line">                accept=&quot;image/jpeg,image/jpg,image/png&quot;</span><br><span class="line">                :on-success=&quot;imageUploadSuccess&quot;</span><br><span class="line">                :before-upload=&quot;beforeUpload&quot;</span><br><span class="line">                v-show=&quot;!hideShow&quot;&gt;</span><br><span class="line">            &lt;i class=&quot;el-icon-plus&quot;&gt;&lt;/i&gt;</span><br><span class="line">        &lt;/el-upload&gt;</span><br><span class="line">        &lt;!--&lt;div slot=&quot;tip&quot; class=&quot;el-upload__tip&quot;&gt;尺寸宽度不低于640，高度不限制，支持jpg、png格式，1张上限&lt;/div&gt;--&gt;//可以写在这里，也可以写在父组件里，这里我是写在父组件里的</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    export default &#123;</span><br><span class="line">        props: [&apos;image&apos;, &apos;clearList&apos;],</span><br><span class="line">        data() &#123;</span><br><span class="line">            return &#123;</span><br><span class="line">                uploadUrl: `http://xxxxxxxx`,//图片上传网址</span><br><span class="line">                file: this.image ? this.image : &apos;&apos;,</span><br><span class="line">            &#125;;</span><br><span class="line">        &#125;,</span><br><span class="line">        watch: &#123;</span><br><span class="line">            image(value) &#123;</span><br><span class="line">                this.file = value</span><br><span class="line">                console.log(&apos;爷爷&apos;, value)</span><br><span class="line">            &#125;,</span><br><span class="line">            clearList() &#123;</span><br><span class="line">                this.file = &apos;&apos;;</span><br><span class="line">            &#125;,</span><br><span class="line">            file(value) &#123;</span><br><span class="line">                console.log(&apos;来了&apos;, value)</span><br><span class="line">                const list = value;</span><br><span class="line">                this.$emit(&apos;update:image&apos;, list);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        computed: &#123;</span><br><span class="line">            hideShow() &#123;//当图片多于一张的时候，就隐藏上传框</span><br><span class="line">                return this.file === &apos;&apos; ? false : true</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        methods: &#123;</span><br><span class="line">            imageUploadSuccess(response) &#123;</span><br><span class="line">                const &#123;data: &#123;url&#125;&#125; = response</span><br><span class="line">                this.file = url;</span><br><span class="line">            &#125;,</span><br><span class="line">            beforeUpload(file) &#123;</span><br><span class="line">                const imageSize = file.size / 1024 / 1024 &lt; 1;//上传图片大小不超过1M</span><br><span class="line">                if (!imageSize) &#123;</span><br><span class="line">                    this.$message.error(&apos;上传封面大小不能超过 1MB!&apos;);</span><br><span class="line">                &#125;</span><br><span class="line">                return imageSize;</span><br><span class="line">            &#125;,</span><br><span class="line">            handleRemove() &#123;</span><br><span class="line">                this.file = &apos;&apos;;</span><br><span class="line">            &#125;,</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">    .flex-img &#123;</span><br><span class="line">        display: flex;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .image-uploader &#123;</span><br><span class="line">        background-color: #fbfdff;</span><br><span class="line">        border: 1px dashed #c0ccda;</span><br><span class="line">        border-radius: 6px;</span><br><span class="line">        -webkit-box-sizing: border-box;</span><br><span class="line">        box-sizing: border-box;</span><br><span class="line">        width: 148px;</span><br><span class="line">        height: auto;</span><br><span class="line">        cursor: pointer;</span><br><span class="line">        line-height: 146px;</span><br><span class="line">        vertical-align: top;</span><br><span class="line">        text-align: center</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .image-uploader &#123;</span><br><span class="line">        font-size: 28px;</span><br><span class="line">        color: #8c939d;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .image-uploader .el-upload:hover &#123;</span><br><span class="line">        border-color: #409EFF;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .flex-img__image &#123;</span><br><span class="line">        width: 146px;</span><br><span class="line">        height: auto;</span><br><span class="line"></span><br><span class="line">        border-radius: 6px;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">    .disabled &#123;</span><br><span class="line">        display: none;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .el-upload--picture-card &#123;</span><br><span class="line">        height: auto</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .el-upload-list--picture-card .el-upload-list__item &#123;</span><br><span class="line">        height: auto;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .el-upload-list--picture-card .el-upload-list__item &#123;</span><br><span class="line">        overflow: hidden;</span><br><span class="line">        background-color: #fff;</span><br><span class="line">        border: 1px solid #c0ccda;</span><br><span class="line">        border-radius: 6px;</span><br><span class="line">        -webkit-box-sizing: border-box;</span><br><span class="line">        box-sizing: border-box;</span><br><span class="line">        width: 148px;</span><br><span class="line">        height: auto;</span><br><span class="line">        margin: 0 8px 8px 0;</span><br><span class="line">        display: inline-block;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .el-upload-list__item.is-success .el-upload-list__item-status-label &#123;</span><br><span class="line">        display: block;</span><br><span class="line">        position: absolute;</span><br><span class="line">        right: -15px;</span><br><span class="line">        top: -6px;</span><br><span class="line">        width: 40px;</span><br><span class="line">        height: 24px;</span><br><span class="line">        background: #13ce66;</span><br><span class="line">        text-align: center;</span><br><span class="line">        -webkit-transform: rotate(45deg);</span><br><span class="line">        transform: rotate(45deg);</span><br><span class="line">        -webkit-box-shadow: 0 0 1pc 1px rgba(0, 0, 0, 0.2);</span><br><span class="line">        box-shadow: 0 0 1pc 1px rgba(0, 0, 0, 0.2);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    .el-upload-list--picture-card .el-upload-list__item-actions &#123;</span><br><span class="line">        position: absolute;</span><br><span class="line">        width: 100%;</span><br><span class="line">        height: 100%;</span><br><span class="line">        left: 0;</span><br><span class="line">        top: 0;</span><br><span class="line">        cursor: default;</span><br><span class="line">        text-align: center;</span><br><span class="line">        color: #fff;</span><br><span class="line">        opacity: 0;</span><br><span class="line">        font-size: 20px;</span><br><span class="line">        background-color: rgba(0, 0, 0, 0.5);</span><br><span class="line">        -webkit-transition: opacity .3s;</span><br><span class="line">        transition: opacity .3s;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+      
+      
+
+  <div class="post-copyright">
+    <p class="copyright-item">
+      <span>原文作者: </span>
+      <a href="http://yoursite.com">MoMo</a>
+    </p>
+    <p class="copyright-item">
+      <span>原文链接: </span>
+      <a href="http://yoursite.com/2018/05/16/upload上传单张图片，效果同多图/">http://yoursite.com/2018/05/16/upload上传单张图片，效果同多图/</a>
+    </p>
+    <p class="copyright-item">
+      <span>许可协议: </span>
+      
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
+    </p>
+  </div>
+
+
+
+      
+      
+  <div class="post-reward">
+    <input type="checkbox" name="reward" id="reward" hidden />
+    <label class="reward-button" for="reward">赞赏支持</label>
+    <div class="qr-code">
+      
+      
+        <label class="qr-code-image" for="reward">
+          <img class="image" src="/images/wechat.png" title="wechat">
+        </label>
+      
+      
+    </div>
+  </div>
+
+    
+
+    
+      <footer class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/element/">element</a>
+            
+          </div>
+        
+        
+        
+  <nav class="post-nav">
+    
+      <a class="prev" href="/2018/05/16/element-upload上传单张图片，效果同多图/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">element upload上传单张图片，效果同多图</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+    
+    
+      <a class="next" href="/2018/05/15/小程序iconfont/">
+        <span class="next-text nav-default">小程序iconfont</span>
+        <span class="prev-text nav-mobile">下一篇</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+      </footer>
+    
+
+  </article>
+
+
+          </div>
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+      </main>
+
+      <footer id="footer" class="footer">
+
+  <div class="social-links">
+    
+      
+        
+          <a href="mailto:1187851948@qq.com" class="iconfont icon-email" title="email"></a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a href="https://github.com/mogmail" class="iconfont icon-github" title="github"></a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+  </div>
+
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://hexo.io/">Hexo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">
+    
+    &copy; 
+    
+    2018
+
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">MoMo</span>
+  </span>
+</div>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+
+    
+  
+  
+<!-- SOHUCS Comments -->
+<div id="SOHUCS"></div>
+<script type="text/javascript">
+(function(){
+var appid = 'cytDxeyn8';
+var conf = '86d4dc1ce1f5718560f64cbdb7dacd65';
+var width = window.innerWidth || document.documentElement.clientWidth;
+if (width < 960) {window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })();
+</script>
+
+
+  
+
+
+
+    
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/lib/pjax/jquery.pjax.min.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/lib/nprogress/nprogress.min.js"></script>
+  
+
+
+    <script type="text/javascript" src="/js/src/even.js?v=2.8.0"></script>
+
+  </body>
+</html>
